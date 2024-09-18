@@ -1,6 +1,3 @@
-
-[![Build Status](https://travis-ci.org/JayThakkar/money-wrapper.svg?branch=master)](https://travis-ci.org/JayThakkar/money-wrapper) [![Latest Stable Version](https://poser.pugx.org/JayThakkar/money-wrapper/v/stable)](https://packagist.org/packages/JayThakkar/money-wrapper) [![Total Downloads](https://poser.pugx.org/JayThakkar/money-wrapper/downloads)](https://packagist.org/packages/JayThakkar/money-wrapper) [![License](https://poser.pugx.org/JayThakkar/money-wrapper/license)](https://packagist.org/packages/JayThakkar/money-wrapper)
-
 ## MoneyPHP Wrapper
 
 This is a wrapper for [Money](https://github.com/moneyphp/money). 
@@ -18,10 +15,10 @@ This wrapper:
 
 ## Installation
 
-1. In order to install `JayThakkar/money-wrapper` in your Laravel project, just run the *composer require* command from your terminal:
+1. In order to install `devjaythakkar/money-wrapper` in your Laravel project, just run the *composer require* command from your terminal:
 
 ```
-$ composer require JayThakkar/money-wrapper
+$ composer require devjaythakkar/money-wrapper
 ```
 
 2. Then in your `config/app.php` add the following to the providers array:
@@ -94,9 +91,9 @@ The structure will be as following:
 
 ```php
 [
-	'MYR' => [
-		'swift_code' => 'MYR',
-		'symbol' => 'RM'
+	'IN' => [
+		'swift_code' => 'INR',
+		'symbol' => '₹'
 	]
 ]
 ```
