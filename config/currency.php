@@ -1,9 +1,13 @@
 <?php
 
 return [
-    'default'            => env('CURRENCY_DEFAULT', 'MY'),
-    'default_swift_code' => env('CURRENCY_DEFAULT_SWIFT_CODE', 'MYR'),
-    'MY'                 => [
+    'default'            => env('CURRENCY_DEFAULT', 'IN'),
+    'default_swift_code' => env('CURRENCY_DEFAULT_SWIFT_CODE', 'INR'),
+    'IN' => [
+        'swift_code' => 'INR',
+        'symbol'     => '₹',
+    ],
+    'MY' => [
         'swift_code' => 'MYR',
         'symbol'     => 'RM',
     ],
