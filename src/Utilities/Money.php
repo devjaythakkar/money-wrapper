@@ -1,8 +1,8 @@
 <?php
 
-namespace CleaniqueCoders\MoneyWrapper\Utilities;
+namespace JayThakkar\MoneyWrapper\Utilities;
 
-use CleaniqueCoders\MoneyWrapper\Exceptions\CurrencyNotAvaialbleException;
+use JayThakkar\MoneyWrapper\Exceptions\CurrencyNotAvaialbleException;
 use Money\Converter;
 use Money\Currencies\ISOCurrencies;
 use Money\Currency;

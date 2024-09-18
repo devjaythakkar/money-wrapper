@@ -1,6 +1,6 @@
 <?php
 
-namespace CleaniqueCoders\MoneyWrapper;
+namespace JayThakkar\MoneyWrapper;
 
 /*
  * This file is part of money-wrapper

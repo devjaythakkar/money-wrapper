@@ -1,6 +1,6 @@
 <?php
 
-namespace CleaniqueCoders\MoneyWrapper;
+namespace JayThakkar\MoneyWrapper;
 
 use Illuminate\Support\ServiceProvider;
 

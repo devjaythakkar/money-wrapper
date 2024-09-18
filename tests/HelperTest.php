@@ -1,13 +1,13 @@
 <?php
 
-namespace CleaniqueCoders\MoneyWrapper\Tests;
+namespace JayThakkar\MoneyWrapper\Tests;
 
 class HelperTest extends TestCase
 {
     /** @test */
     public function it_has_package_service_provider()
     {
-        $this->assertTrue(class_exists(\CleaniqueCoders\MoneyWrapper\MoneyWrapperServiceProvider::class));
+        $this->assertTrue(class_exists(\JayThakkar\MoneyWrapper\MoneyWrapperServiceProvider::class));
     }
 
     /** @test */
@@ -67,7 +67,7 @@ class HelperTest extends TestCase
     /** @test */
     public function it_can_set_currency()
     {
-        $this->assertTrue(money()->setCurrency('US') instanceof \CleaniqueCoders\MoneyWrapper\Utilities\Money);
+        $this->assertTrue(money()->setCurrency('US') instanceof \JayThakkar\MoneyWrapper\Utilities\Money);
     }
 
     /** @test */
@@ -94,19 +94,19 @@ class HelperTest extends TestCase
     /** @test */
     public function it_has_money_utility_class()
     {
-        $this->assertTrue(class_exists(\CleaniqueCoders\MoneyWrapper\Utilities\Money::class));
+        $this->assertTrue(class_exists(\JayThakkar\MoneyWrapper\Utilities\Money::class));
     }
 
     /** @test */
     public function it_can_make_money_utility_object_for_a_country()
     {
-        $this->assertNotEmpty(\CleaniqueCoders\MoneyWrapper\Utilities\Money::make('US'));
+        $this->assertNotEmpty(\JayThakkar\MoneyWrapper\Utilities\Money::make('US'));
     }
 
     /** @test */
     public function it_can_make_money_utility_object_using_default_country()
     {
-        $this->assertNotEmpty(\CleaniqueCoders\MoneyWrapper\Utilities\Money::make(config('currency.default')));
+        $this->assertNotEmpty(\JayThakkar\MoneyWrapper\Utilities\Money::make(config('currency.default')));
     }
 
     /** @test */
@@ -242,7 +242,7 @@ class HelperTest extends TestCase
     protected function getPackageProviders($app)
     {
         return [
-            \CleaniqueCoders\MoneyWrapper\MoneyWrapperServiceProvider::class,
+            \JayThakkar\MoneyWrapper\MoneyWrapperServiceProvider::class,
         ];
     }
 }

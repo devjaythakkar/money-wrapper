@@ -1,17 +1,17 @@
 {
-    "name": "cleaniquecoders/money-wrapper",
+    "name": "devjaythakkar/money-wrapper",
     "description": "MoneyPHP Wrapper",
     "keywords": ["money", "php", "wrapper", "package", "laravel"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Nasrul Hazim",
-            "email": "nasrulhazim.m@gmail.com"
+            "name": "Jay Thakkar",
+            "email": "jaythakkar381@gmail.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "CleaniqueCoders\\MoneyWrapper\\": "src/"
+            "JayThakkar\\MoneyWrapper\\": "src/"
         },
         "files": [
             "src/Support/helpers.php"
@@ -19,7 +19,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "CleaniqueCoders\\MoneyWrapper\\Tests\\": "tests/"
+            "JayThakkar\\MoneyWrapper\\Tests\\": "tests/"
         }
     },
     "require": {
@@ -35,7 +35,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "CleaniqueCoders\\MoneyWrapper\\MoneyWrapperServiceProvider"
+                "JayThakkar\\MoneyWrapper\\MoneyWrapperServiceProvider"
             ]
         }
     },

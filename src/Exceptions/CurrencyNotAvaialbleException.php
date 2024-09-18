@@ -1,6 +1,6 @@
 <?php
 
-namespace CleaniqueCoders\MoneyWrapper\Exceptions;
+namespace JayThakkar\MoneyWrapper\Exceptions;
 
 use Exception;
 

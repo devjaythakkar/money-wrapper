@@ -6,6 +6,6 @@
 if (! function_exists('money')) {
     function money(string $country = '')
     {
-        return \CleaniqueCoders\MoneyWrapper\Utilities\Money::make($country);
+        return \JayThakkar\MoneyWrapper\Utilities\Money::make($country);
     }
 }

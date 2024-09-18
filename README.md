@@ -1,5 +1,5 @@
 
-[![Build Status](https://travis-ci.org/cleaniquecoders/money-wrapper.svg?branch=master)](https://travis-ci.org/cleaniquecoders/money-wrapper) [![Latest Stable Version](https://poser.pugx.org/cleaniquecoders/money-wrapper/v/stable)](https://packagist.org/packages/cleaniquecoders/money-wrapper) [![Total Downloads](https://poser.pugx.org/cleaniquecoders/money-wrapper/downloads)](https://packagist.org/packages/cleaniquecoders/money-wrapper) [![License](https://poser.pugx.org/cleaniquecoders/money-wrapper/license)](https://packagist.org/packages/cleaniquecoders/money-wrapper)
+[![Build Status](https://travis-ci.org/JayThakkar/money-wrapper.svg?branch=master)](https://travis-ci.org/JayThakkar/money-wrapper) [![Latest Stable Version](https://poser.pugx.org/JayThakkar/money-wrapper/v/stable)](https://packagist.org/packages/JayThakkar/money-wrapper) [![Total Downloads](https://poser.pugx.org/JayThakkar/money-wrapper/downloads)](https://packagist.org/packages/JayThakkar/money-wrapper) [![License](https://poser.pugx.org/JayThakkar/money-wrapper/license)](https://packagist.org/packages/JayThakkar/money-wrapper)
 
 ## MoneyPHP Wrapper
 
@@ -18,22 +18,22 @@ This wrapper:
 
 ## Installation
 
-1. In order to install `cleaniquecoders/money-wrapper` in your Laravel project, just run the *composer require* command from your terminal:
+1. In order to install `JayThakkar/money-wrapper` in your Laravel project, just run the *composer require* command from your terminal:
 
 ```
-$ composer require cleaniquecoders/money-wrapper
+$ composer require JayThakkar/money-wrapper
 ```
 
 2. Then in your `config/app.php` add the following to the providers array:
 
 ```php
-CleaniqueCoders\MoneyWrapper\MoneyWrapperServiceProvider::class,
+JayThakkar\MoneyWrapper\MoneyWrapperServiceProvider::class,
 ```
 
 3. In the same `config/app.php` add the following to the aliases array:
 
 ```php
-'MoneyWrapper' => CleaniqueCoders\MoneyWrapper\MoneyWrapperFacade::class,
+'MoneyWrapper' => JayThakkar\MoneyWrapper\MoneyWrapperFacade::class,
 ```
 
 4. Publish Money Wrapper Config:
